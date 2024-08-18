@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: firebrick;
+}
+
+.pencil {
+    position: absolute;
+    width: 100px; /* Adjust size as needed, dont adjust, THIS IS PERFECT */
+    cursor: pointer;
+    transition: transform 0.5s ease; /*Transition speed: Less is fast, More is slow. 0.5 is ideal for smooth transition, any less and it becomes a pitbull on crack, any more and it becomes Joe Biden*/
+}
